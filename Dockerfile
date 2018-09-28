@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 # Set target versions for dependencies
 ENV FIREFOX_VERSION=59.0 \
     GECKODRIVER_VERSION=0.20.0 \
-    PIPENV_VERSION=11.7.2
+    PIPENV_VERSION=2018.7.1
 
 # Install requirements to install tools
 RUN dependencies=' \
@@ -17,7 +17,7 @@ RUN dependencies=' \
         ca-certificates \
         curl \
         firefox \
-		python3.6 \
+        python3.6 \
         python-pip \
         python-setuptools \
         python-wheel \
